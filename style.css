@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container, .curriculo {
+    background: white;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #0078d4;
+}
+
+hr {
+    border: 1px solid #0078d4;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.botaoPrincipal {
+    margin-top: 20px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botaoSecundario {
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.remover {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-top: 8px;
+    cursor: pointer;
+}
